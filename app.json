@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "Fator de queda",
+    "slug": "snack-a6b4efd5-0a0a-4c07-b09c-56f728ff4206",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FE9800FF"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FE9800FF"
+      },
+      "package": "com.paulob3j.snacka6b4efd50a0a4c07b09c56f728ff4206"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "description": "Faça calculo de fator de queda de forma facil e rapida!",
+    "extra": {
+      "eas": {
+        "projectId": "1be755f0-9b27-47aa-b980-d41851a6986c"
+      }
+    }
+  }
+}
