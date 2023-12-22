@@ -2,11 +2,6 @@
 
 Este é o código-fonte de uma aplicação React Native que implementa uma calculadora de Fator de Queda, utilizada em contextos de trabalho em altura conforme a norma regulamentadora NR-35. A aplicação permite calcular o fator de queda com base na altura da queda e no comprimento do talabarte.
 
-<p float="left">
-  <img src="assets/talabarte.png" width="300" />
-  <img src="assets/talabarte.png" width="300" />
-</p>
-
 ## Como usar a aplicação
 
 1. **Informe o Comprimento do Talabarte:**
@@ -14,12 +9,21 @@ Este é o código-fonte de uma aplicação React Native que implementa uma calcu
 
 2. **Informe a Altura da Queda:**
    - Em seguida, o usuário deve informar a altura da queda. A fórmula utilizada para o cálculo é: FQ = altura da queda / comprimento do talabarte.
+  
+<p float="left">
+    <img src="assets/print1.jpeg" width="200" />
+    <img src="assets/print2.jpeg" width="200" />
+</p>
 
 3. **Visualização do Resultado:**
    - Após inserir os valores, o usuário pode visualizar o resultado do cálculo. A aplicação fornece feedback visual indicando se o fator de queda é menor que 1, igual a 1 ou maior que 1.
 
-4. **Detalhes e Normas:**
-   - O usuário pode obter mais informações clicando no link fornecido na aplicação, que leva à norma regulamentadora NR-35.5.11 b/fator de queda.
+<p float="left">
+  <img src="assets/print3.jpeg" width="200" />
+  <img src="assets/print4.jpeg" width="200" />
+  <img src="assets/print5.jpeg" width="200" />
+  
+</p>
 
 ## Estrutura do Código
 
