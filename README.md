@@ -1,22 +1,22 @@
-# Calculadora de Fator de Queda em React Native
+# Fall Factor Calculator in React Native
 
-Este é o código-fonte de uma aplicação React Native que implementa uma calculadora de Fator de Queda, utilizada em contextos de trabalho em altura conforme a norma regulamentadora NR-35. A aplicação permite calcular o fator de queda com base na altura da queda e no comprimento do talabarte.
+This is the source code of a React Native application that implements a Fall Factor Calculator, used in height work contexts according to regulatory standard NR-35. The application allows calculating the fall factor based on the fall height and the length of the lanyard.
 
-## Como usar a aplicação
+## How to use the application
 
-1. **Informe o Comprimento do Talabarte:**
-   - Inicialmente, o usuário deve informar o comprimento do talabarte. O comprimento do talabarte é um fator importante na determinação do fator de queda.
+1. **Enter the Lanyard Length:**
+   - Initially, the user must enter the length of the lanyard. The lanyard's length is an important factor in determining the fall factor.
 
-2. **Informe a Altura da Queda:**
-   - Em seguida, o usuário deve informar a altura da queda. A fórmula utilizada para o cálculo é: FQ = altura da queda / comprimento do talabarte.
+2. **Enter the Fall Height:**
+   - Next, the user should enter the fall height. The formula used for the calculation is: FF = fall height / lanyard length.
   
 <p float="left">
     <img src="assets/print1.jpeg" width="200" />
     <img src="assets/print2.jpeg" width="200" />
 </p>
 
-3. **Visualização do Resultado:**
-   - Após inserir os valores, o usuário pode visualizar o resultado do cálculo. A aplicação fornece feedback visual indicando se o fator de queda é menor que 1, igual a 1 ou maior que 1.
+3. **Result Visualization:**
+   - After entering the values, the user can visualize the calculation result. The application provides visual feedback indicating whether the fall factor is less than 1, equal to 1, or greater than 1.
 
 <p float="left">
   <img src="assets/print3.jpeg" width="200" />
@@ -25,27 +25,27 @@ Este é o código-fonte de uma aplicação React Native que implementa uma calcu
   
 </p>
 
-## Estrutura do Código
+## Code Structure
 
-- O código utiliza React Native para construir a interface de usuário.
-- Componentes como `TextInput`, `TouchableOpacity`, e `Image` são importados do React Native para criar elementos interativos e visuais.
-- A lógica do cálculo e manipulação de estados é gerenciada por meio do uso de hooks, especialmente `useState`.
-- A estilização é feita utilizando o pacote `react-native-animatable` para animações e estilos pré-definidos no arquivo `styles.js`.
+- The code uses React Native to build the user interface.
+- Components like `TextInput`, `TouchableOpacity`, and `Image` are imported from React Native to create interactive and visual elements.
+- The logic for calculation and state manipulation is managed through the use of hooks, especially `useState`.
+- Styling is done using the `react-native-animatable` package for animations and predefined styles in the `styles.js` file.
 
-## Funcionalidades Adicionais
+## Additional Features
 
-- A aplicação possui animações visuais para indicar a atenção do usuário.
-- Imagens representativas são exibidas conforme o resultado do cálculo.
-- Um link é fornecido para acessar informações adicionais sobre fatores de queda na NR-35.
+- The application has visual animations to indicate user attention.
+- Representative images are displayed based on the calculation result.
+- A link is provided to access additional information about fall factors in NR-35.
 
-## Como Rodar o Projeto
+## How to Run the Project
 
-1. **Instalação de Dependências:**
-   - Certifique-se de ter o Node.js e o React Native instalados.
-   - Execute `npm install` para instalar as dependências do projeto.
+1. **Install Dependencies:**
+   - Make sure you have Node.js and React Native installed.
+   - Run `npm install` to install project dependencies.
 
-2. **Execução da Aplicação:**
-   - Execute `npx react-native run-android` ou `npx react-native run-ios` para iniciar a aplicação no emulador ou dispositivo físico.
+2. **Run the Application:**
+   - Execute `npx react-native run-android` or `npx react-native run-ios` to start the application on the emulator or physical device.
 
-3. **Observação:**
-   - Certifique-se de ter um ambiente de desenvolvimento React Native configurado corretamente para garantir a execução adequada.
+3. **Note:**
+   - Ensure you have a React Native development environment set up correctly to ensure proper execution.
